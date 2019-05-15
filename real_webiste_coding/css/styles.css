@@ -105,8 +105,18 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
-  .changing-image{
-    padding: 2vw 0 2vw 0;
+  .container-fluid .jumbotron{
+    padding: 2px;
+    box-shadow: 0 0 5px #aaaaaa;
   }
+}
+
+.container-fluid .jumbotron {
+  padding: 5px;
+  box-shadow: 0 0 10px #aaaaaa;
+}
+
+.changing-image {
+  border-radius: 5px;
 }
 
