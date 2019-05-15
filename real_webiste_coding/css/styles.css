@@ -107,17 +107,17 @@ body {
   }
   .container-fluid .jumbotron{
     padding: 1px;
+    height: 250px;
     box-shadow: 0 0 5px #aaaaaa;
+  }
+  #plan-tour-tile, #explore-tile, #best-deal-tile {
+    height: 100px;
   }
 }
 
 .container-fluid .jumbotron {
   padding: 5px;
   box-shadow: 0 0 10px #aaaaaa;
-}
-
-.changing-image {
-  border-radius: 5px;
 }
 
 #plan-tour-tile, #explore-tile, #best-deal-tile {
