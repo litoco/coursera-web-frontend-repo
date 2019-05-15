@@ -108,12 +108,14 @@ body {
 
   .changing-image {
     height: 32vw;
-    margin: -8% 0 -8% 0;
+    margin: 0;
+    padding: 0;
   }
 }
 
 
 .changing-image {
   height: 30vw;
-  margin: -4% 0 -6% 0;
+  padding: 0;
+  margin: 0;
 }
