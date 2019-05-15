@@ -105,13 +105,10 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
+
   .container-fluid .jumbotron{
     padding: 1px;
-    height: 250px;
     box-shadow: 0 0 5px #aaaaaa;
-  }
-  #plan-tour-tile, #explore-tile, #best-deal-tile {
-    height: 100px;
   }
 }
 
@@ -120,8 +117,17 @@ body {
   box-shadow: 0 0 10px #aaaaaa;
 }
 
+.container-fluid .img-responsive {
+  height: 100%;
+}
+
+.changing-image {
+  border-radius: 5px;
+}
+
 #plan-tour-tile, #explore-tile, #best-deal-tile {
-  height: 250px;
+  height: 25vw;
+  max-height: 200px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
