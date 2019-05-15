@@ -105,17 +105,8 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
-
-  .changing-image {
-    height: 32vw;
-    margin: 0;
-    padding: 0;
+  .changing-image{
+    padding: 10px 0 10px 0;
   }
 }
 
-
-.changing-image {
-  height: 30vw;
-  padding: 0;
-  margin: 0;
-}
