@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>India Tour</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> 
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
@@ -31,11 +32,59 @@
           	<span class="icon-bar"></span>
           </button>
         </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+        	<ul id="nav-list" class="nav navbar-nav navbar-right">
+        		<li>
+        			<a href="menu-catagories.html">
+        				<span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> Plans</a>
+        		</li>
+        		<li>
+        			<a href="#">
+        			<span class="glyphicon glyphicon-plane"></span><br class="hidden-xs"> Travel</a>
+        		</li>
+        		<li>
+        			<a href="#">
+        			<span class="glyphicon glyphicon-eye-open"></span><br class="hidden-xs"> Explore</a>
+        		</li>
+        		<li id="phone" class="hidden-xs">
+        			<a href="tel:620-235-6901">
+        			<span class="glyphicon glyphicon-phone-alt"></span><br class="hidden-xs"> 620-235-6901</a>
+        		</li>
+        	</ul>
+        </div>
       </div>
     </nav>
   </header>
+
+  <div id="main-content" class="container-fluid">
+  	<div class="jumbotron img-responsive">
+  		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  			<ol class="carousel-indicators">
+			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			    <li data-target="#myCarousel" data-slide-to="1"></li>
+			    <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+			    <div class="item active img-rounded changing-image">
+			      <img src="images/namaste.jpg" alt="namaste">
+				</div>
+
+				<div class="item img-rounded changing-image">
+				  <img src="images/taj.jpg" alt="Taj Mahal">
+				</div>
+
+				<div class="item img-rounded changing-image">
+				  <img src="images/taste.jpg" alt="Tastes">
+				</div>
+		  	</div>
+  		</div>
+  	</div>
+  </div>
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>

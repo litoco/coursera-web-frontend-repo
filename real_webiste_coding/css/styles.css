@@ -17,8 +17,8 @@ body {
 #logo-img {
   background: url('../images/logo.jpg') no-repeat;
   background-size: 100% 100%;
-  width: 200px;
-  height: 150px;
+  width: 180px;
+  height: 120px;
   margin: 10px 25px 10px 0;
   border-radius: 10px;
 }
@@ -37,11 +37,78 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
+
+
+.navbar-brand p {
   color: #ffffff;
   font-size: .7em;
-  margin-top: 15px;
+  margin-top: 10px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #eeeeee;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #da730b;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone a {
+  padding-right: 15px;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #eeeeee;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* Extra small devices */
+
+@media (max-width: 767px) {
+
+  .navbar-brand {
+    padding-top: 10px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 4vw;
+  }
+
+  .navbar-brand p {
+    font-size: .6em;
+    margin-top: 4px;
+  }
+
+  #collapsable-nav a {
+    font-size: .8em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+
+.changing-image {
+  height: 30vw;
+  margin: -2%;
 }
