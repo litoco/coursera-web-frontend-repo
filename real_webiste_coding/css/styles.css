@@ -105,10 +105,14 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
+
+  .changing-image {
+    height: 32vw;
+  }
 }
 
 
 .changing-image {
   height: 30vw;
-  margin: -4% -2% -4% -2%;
+  margin: -4% 0 -6% 0;
 }
