@@ -77,57 +77,8 @@ body {
 
 .navbar-header button.navbar-toggle {
   clear: both;
-  margin-top: -30px;
+  margin-top: -45px;
 }
-
-/* Extra small devices */
-
-@media (max-width: 767px){
-
-  .navbar-brand {
-    padding-top: 10px;
-  }
-
-  .navbar-brand h1 {
-    font-size: 1.5em;
-  }
-
-  .container-fluid>.navbar-header {
-    height: 80px;
-  }
-
-  .navbar-header button.navbar-toggle {
-    padding: .4em;
-  }
-
-  .navbar-brand p {
-    font-size: .7em;
-    margin-top: 10px;
-    margin-right: 10vw;
-    line-height: 15px;
-  }
-
-  #collapsable-nav a {
-    font-size: .8em;
-  }
-
-  #collapsable-nav a span {
-    font-size: 1em;
-    margin-right: 5px;
-  }
-
-  .carousel {
-    margin: -3px;
-  }
-
-  .carousel-inner>.item>img {
-    height: 40vw;
-  }
-}
-
-
-/* Very very small devices*/
-
 
 
 
@@ -187,5 +138,55 @@ body {
   font-size: 1.4em;
   background-color: #000000;
   color: #ffffff;
-  opacity: .7;
+  opacity: .69;
 }
+
+/* Extra small devices */
+
+@media (max-width: 767px){
+
+  #plan-tour-tile, #explore-tile, #best-deal-tile {
+    width: 250px;
+    margin: 0 auto 15px;
+  }
+
+  .navbar-brand {
+    padding-top: 10px;
+  }
+
+  .navbar-brand h1 {
+    font-size: 1.5em;
+  }
+
+  .container-fluid>.navbar-header {
+    height: 80px;
+  }
+
+  .navbar-header button.navbar-toggle {
+    padding: .4em;
+  }
+
+  .navbar-brand p {
+    font-size: .7em;
+    margin-top: 10px;
+    margin-right: 10vw;
+    line-height: 15px;
+  }
+
+  #collapsable-nav a {
+    font-size: .8em;
+  }
+
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  .carousel {
+    margin: -3px;
+  }
+
+  .carousel-inner>.item>img {
+    height: 40vw;
+  }
+} /* extra small devices end */
