@@ -190,3 +190,30 @@ body {
     height: 40vw;
   }
 } /* extra small devices end */
+
+
+.panel-footer {
+  margin-top: 20px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 20px;
+}
+
+#testimonials, #about_developer {
+  line-height: 2;
+}
+
+#testimonials > span, #about_developer > span {
+  font-size: 1.3em;
+}
+
+#about_developer p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
