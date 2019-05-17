@@ -82,19 +82,29 @@ body {
 
 /* Extra small devices */
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
 
   .navbar-brand {
     padding-top: 10px;
   }
 
   .navbar-brand h1 {
-    font-size: 4vw;
+    font-size: 6vw;
+  }
+
+  .container-fluid>.navbar-header {
+    height: auto;
+  }
+
+  .navbar-header button.navbar-toggle {
+    padding: .4em;
   }
 
   .navbar-brand p {
     font-size: .6em;
     margin-top: 4px;
+    margin-right: 10vw;
+    line-height: 15px;
   }
 
   #collapsable-nav a {
@@ -106,9 +116,12 @@ body {
     margin-right: 5px;
   }
 
-  .container-fluid .jumbotron{
-    padding: 1px;
-    box-shadow: 0 0 5px #aaaaaa;
+  .carousel {
+    margin: -3px;
+  }
+
+  .carousel-inner>.item>img {
+    height: 40vw;
   }
 }
 
