@@ -82,18 +82,18 @@ body {
 
 /* Extra small devices */
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px){
 
   .navbar-brand {
     padding-top: 10px;
   }
 
   .navbar-brand h1 {
-    font-size: 6vw;
+    font-size: 1.5em;
   }
 
   .container-fluid>.navbar-header {
-    height: auto;
+    height: 80px;
   }
 
   .navbar-header button.navbar-toggle {
@@ -101,8 +101,8 @@ body {
   }
 
   .navbar-brand p {
-    font-size: .6em;
-    margin-top: 4px;
+    font-size: .7em;
+    margin-top: 12px;
     margin-right: 10vw;
     line-height: 15px;
   }
@@ -124,6 +124,12 @@ body {
     height: 40vw;
   }
 }
+
+
+/* Very very small devices*/
+
+
+
 
 .container-fluid .jumbotron {
   padding: 5px;
