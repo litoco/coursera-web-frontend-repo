@@ -1,0 +1,79 @@
+
+
+/********************************************* MAIN PAGE ******************************************/
+
+.navbar-default{
+  background-color: #aaaaaa;
+  border: solid #000 4px;
+  height: auto;
+}
+
+.container-fluid > .navbar-header {
+  float: none;
+}
+
+.navbar-default .navbar-brand {
+  margin: 16px !important;
+  color: #000000;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #aaaaaa;
+    border-color: #fff;
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar:hover ~ .navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #000;
+}
+
+span, h3, h4, a {
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+  color: #000000;
+}
+
+.menu {
+  background-color: #aaaaaa;
+}
+
+hr{
+  border: 2px solid #000;
+  margin: 0 -20px -4px;
+}
+
+
+#collapsable-nav {
+  border: 4px solid #000;
+  border-top-width: 0px; 
+  margin: 0 -20px -4px;
+  background-color: #fff;
+  color: #000;
+}
+
+ul > li > span {
+  margin: 16px;
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+
+/********************************************* MAIN PAGE ******************************************/
