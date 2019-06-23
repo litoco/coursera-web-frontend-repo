@@ -79,8 +79,10 @@ body {
   clear: both;
   margin-top: -45px;
 }
+/* Header End here*/
 
 
+/* main page*/
 
 .container-fluid .jumbotron {
   padding: 5px;
@@ -189,8 +191,143 @@ body {
   .carousel-inner>.item>img {
     height: 40vw;
   }
+
+  #testimonials, #about_developer {
+    font-size: .8em;
+    position: relative;
+    line-height: 1em;
+  }
+
+  #testimonials > .author {
+    position: absolute;
+    font-size: .9em; 
+    right: 0;
+    padding-right: 16px;
+  }
 } /* extra small devices end */
 
+/* Main page end*/
+
+/* Plan Tour */ 
+.navbar-default .navbar-nav>.active>a {
+  background-color: #da730b;
+}
+
+.category-tile {
+  position: relative;
+  border:2px solid #cccccc;
+  overflow: hidden;
+  height: 200px;
+  width: 27vw;
+  margin: 0 auto 30px;
+  border-radius: 5px;
+}
+
+.category-tile img {
+  height: 100%;
+  width: 100%;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  color: #cccccc;
+  opacity: .69;
+  background: #000000;
+}
+
+.category-tile:hover {
+  box-shadow: 0 2px 6px 2px #ffffff;
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+  .category-tile {
+    height: 200px;
+    margin-bottom: 15px;
+    width: 36vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .category-tile {
+    height: 180px;
+    margin-bottom: 30px;
+    width: 250px;
+  }
+} 
+/* Plan Tour end here */
+
+
+/* Single plan */
+
+#slide-img .item {
+  width: 60vw;
+  height: 39vw;
+  background-size:cover;
+  background-position: center center;
+  border-radius: 5px;
+  border: 2px solid #cccccc;
+}
+
+#slide-img .item:nth-child(1) {
+  background-image: url("../images/plan_tour/single_plan/image6.jpg");
+}
+
+#slide-img .item:nth-child(2) {
+  background-image: url("../images/plan_tour/single_plan/image1.jpg");
+}
+
+#slide-img .item:nth-child(3) {
+  background-image: url("../images/plan_tour/single_plan/image2.jpg");
+}
+
+#slide-img .item:nth-child(4) {
+  background-image: url("../images/plan_tour/single_plan/image8.jpg");
+}
+
+#booking-details {
+  padding-right: 35px;
+}
+
+.move-left {
+  float: left;
+}
+
+.move-right {
+  float: right;
+}
+
+.button-container {
+  clear: both;
+  padding-top: 20px;
+}
+
+.booking-button {
+  background-color: #eeeeee; 
+  border: 2px solid #804000;
+  border-radius: 5px;
+  color: #da730b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.booking-button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* single plan ends here */
+
+/* Footer */
 
 .panel-footer {
   margin-top: 20px;
@@ -205,15 +342,25 @@ body {
 }
 
 #testimonials, #about_developer {
-  line-height: 2;
+  line-height:  ;
 }
 
 #testimonials > span, #about_developer > span {
-  font-size: 1.3em;
+  font-size: 1.15em;
 }
 
-#about_developer p {
-  color: #557c3e;
-  font-size: .8em;
-  line-height: 1.8;
+#about_developer {
+  text-align: right;
 }
+
+#testimonials > .author {
+    font-size: .9em; 
+    font-style: monospace;
+}
+
+.container-fluid > .text-center {
+  line-height: .2em;
+}
+/* Footer end here */
+
+

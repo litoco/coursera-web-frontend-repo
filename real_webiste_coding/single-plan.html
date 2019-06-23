@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>India Tour</title>
-    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
@@ -17,7 +16,7 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <a href="index.html" class="pull-left visible-md visible-lg">
-            <div id="logo-img"></div>
+            <div id="logo-img"></div>	
           </a>
 
           <div class="navbar-brand">
@@ -36,7 +35,7 @@
         <div id="collapsable-nav" class="collapse navbar-collapse">
         	<ul id="nav-list" class="nav navbar-nav navbar-right">
         		<li>
-        			<a href="plan-tour.html">
+        			<a href="menu-catagories.html">
         				<span class="glyphicon glyphicon-calendar"></span><br class="hidden-xs"> Plans</a>
         		</li>
         		<li>
@@ -57,54 +56,50 @@
     </nav>
   </header>
 
-  <div id="main-content" class="container-fluid">
-  	<div class="jumbotron img-responsive">
-  		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  			<ol class="carousel-indicators hidden-xs">
-			    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			    <li data-target="#myCarousel" data-slide-to="1"></li>
-			    <li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner changing-image">
-			    <div class="item active img-rounded">
-			      <img src="images/namaste.jpg" alt="namaste">
-				</div>
+  <div id ="main-content" class="container-fluid">
+    <div id="slide-img" class="hidden-xs pull-left">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators hidden-xs">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+          </div>
 
-				<div class="item img-rounded">
-				  <img src="images/taj.jpg" alt="Taj Mahal">
-				</div>
+          <div class="item">
+          </div>
 
-				<div class="item img-rounded">
-				  <img src="images/taste.jpg" alt="Tastes">
-				</div>
-		  	</div>
-  		</div>
-  	</div>
 
-  	<div id="home-tiles" class="row">
-  		<div class="col-md-4 col-sm-6 col-xs-12">
-  			<a href="plan-tour.html">
-  				<div id="plan-tour-tile">
-  					<span>Plan Tour</span>
-  				</div>
-  			</a>
-  		</div>
-  		<div class="col-md-4 col-sm-6 col-xs-12">
-  			<a href="explore.html">
-  				<div id="explore-tile">
-  					<span>Explore</span>
-  				</div>
-  			</a>
-  		</div>
-  		<div class="col-md-4 col-sm-12 col-xs-12">
-  			<a href="best-deal.html">
-  				<div id="best-deal-tile">
-  					<span>Best Deals</span>
-  				</div>
-  			</a>
-  		</div>
-  	</div> <!-- Home-tiles menus-->
-  </div><!-- Main Content -->
+          <div class="item">
+          </div>
+
+          <div class="item">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="booking-details" class="pull-right">
+       <h2>
+         Travel all around India with us.
+       </h2>
+       <div class="move-left">
+         Start date:
+         <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+       </div>
+       <div class="move-right">
+         End date:
+         <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+       </div>
+       <div class="button-container">
+         <button class="booking-button">
+           <span>Book Now </span>
+         </div>
+       </div>
+     </div>
+  </div>
 
   <div class="panel-footer">
   	<div class="container-fluid">
